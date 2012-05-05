@@ -1,20 +1,18 @@
 
 # mkgmap style for OSM hiking maps
 
-A style sheet and [TYP definition][1] for
+[Style rules][10] and [TYP definitions][1] for
 making a hiking map (suitable for [Oslomarka][2])
 from [OpenStreetMap](http://www.openstreetmap.org/) data
 for a [Garmin GPS][3] using [mkgmap][4].
-
 The cartography is adopted from hiking maps by
 [Asker Skiklubb](http://asker-skiklubb.no/) and
 open [symbol][5] and [color][6] standards from the
 [Norwegian Mapping Authority](http://www.statkart.no/).
 
-Use [cGPSmapper][1] or mkgmap to build the TYP file from `hiking_typdef.txt`.
+Use [cGPSmapper][7] or mkgmap to build the TYP file from `hiking_typdef.txt`.
 The [online TYP editor at ATI land][8] is also a neat tool.
-
-Build the map file using mkgmap:
+Then build the map file using mkgmap:
 
     sty=$mkgmap_style_folder/hiking
     mkgmap="java -Xmx1536M -jar $java_home/mkgmap.jar"
@@ -26,6 +24,7 @@ For large areas you'll need to use a splitter.
 Created by Vidar Bronken Gundersen.
 [CC BY][9]
 
+[10: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
 [1]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
 [2]: http://no.wikipedia.org/wiki/Marka_(Oslo)
 [3]: http://www.garmin.com/us/products/onthetrail
