@@ -1,0 +1,1623 @@
+[_id]
+FID=984
+ProductCode=1
+Codepage=1252
+[End]
+
+[_drawOrder]
+; Polygon drawing levels (1-15)
+Type=0x4b,1
+Type=0x32,2
+Type=0x4d,3
+Type=0x4f,3
+Type=0x50,3
+Type=0x08,4
+Type=0x0c,4
+Type=0x02,4
+Type=0x22,4
+Type=0x03,4
+Type=0x4e,4
+Type=0x04,5
+Type=0x07,5
+Type=0x0a,5
+Type=0x17,5
+Type=0x1a,5
+Type=0x05,6
+Type=0x18,6
+Type=0x19,6
+Type=0x51,6
+Type=0x3c,7
+Type=0x3f,7
+Type=0x46,7
+Type=0x13,8
+[end]
+
+; Polygon drawing level: 1
+; 0x4b - Background (coverage)
+
+[_polygon]
+Type=0x4b
+Xpm="0 0 1 0"
+"1   c #ffffff"
+[end]
+
+; Polygon drawing level: 2
+
+[_polygon]
+Type=0x32
+String1=0x04,Sea
+String2=0x0f,Sjø
+Xpm="0 0 1 0"
+"1   c #9bd9e9"
+[end]
+
+; Polygon drawing level: 3
+
+[_polygon]
+Type=0x50
+String1=0x04,Wood
+String2=0x0f,Skog
+Xpm="0 0 1 0"
+"1   c #ffffff"
+[end]
+; #dde6d5 (skog)
+
+[_polygon]
+Type=0x4f
+String1=0x04,Scrub
+String2=0x0f,Kratt
+Xpm="0 0 1 0"
+"1   c #ffffff"
+[end]
+
+[_polygon]
+Type=0x4d
+String1=0x04,Glacier
+String2=0x0f,Isbre
+Xpm="0 0 1 0"
+"1   c #f0f8ff"
+[end]
+
+; Polygon drawing level: 4
+
+[_polygon]
+Type=0x02
+String1=0x04,Residential area
+String2=0x0f,Boligområde
+Xpm="0 0 1 0"
+"1   c #ffdcbe"
+[end]
+
+[_polygon]
+Type=0x08
+String1=0x04,Retail area
+String2=0x0f,Handelsområde
+Xpm="0 0 1 0"
+"1   c #ffdcbe"
+[end]
+
+[_polygon]
+Type=0x0c
+String1=0x04,Industrial area
+String2=0x0f,Industriområde
+Xpm="0 0 1 0"
+"1   c #d7d7d7"
+[end]
+
+[_polygon]
+Type=0x04
+String1=0x04,Military base
+String2=0x0f,Militærbase
+Xpm="0 0 1 0"
+"1   c #d7d7d7"
+[end]
+
+[_polygon]
+Type=0x07
+String1=0x04,Airport
+String2=0x0f,Flyplass
+Xpm="0 0 1 0"
+"1   c #d7d7d7"
+[end]
+
+[_polygon]
+Type=0x4e
+String1=0x04,Farmland
+String2=0x0f,Dyrket mark
+Xpm="0 0 1 0"
+"1   c #fef086"
+[end]
+
+[_polygon]
+Type=0x22
+String1=0x04,Meadow
+String2=0x0f,Eng
+Xpm="0 0 1 0"
+"1   c #fef086"
+[end]
+
+; Polygon drawing level: 5
+
+[_polygon]
+Type=0x17
+String1=0x04,Park
+String2=0x0f,Friområde
+Xpm="0 0 1 0"
+"1   c #9bb93c"
+[end]
+
+[_polygon]
+Type=0x1a
+String1=0x04,Cemetery
+String2=0x0f,Gravlund
+Xpm="0 0 1 0"
+"1   c #9bb93c"
+[end]
+
+[_polygon]
+Type=0x0a
+String1=0x04,School
+String2=0x0f,Skole
+Xpm="0 0 1 0"
+"1   c #ffdcbe"
+[end]
+
+[_polygon]
+Type=0x03
+String1=0x04,Farmyard
+String2=0x0f,Gårdsbruk
+Xpm="0 0 1 0"
+"1   c #ffdcbe"
+[end]
+
+; Polygon drawing level: 6
+
+[_polygon]
+Type=0x05
+String1=0x04,Parking
+String2=0x0f,Parkering
+Xpm="0 0 1 0"
+"1   c #bc5e1e"
+[end]
+
+[_polygon]
+Type=0x18
+String1=0x04,Golf course
+String2=0x0f,Golfbane
+Xpm="0 0 1 0"
+"1   c #9bb93c"
+[end]
+
+[_polygon]
+Type=0x19
+String1=0x04,Pitch
+String2=0x0f,Idrettsbane
+Xpm="0 0 1 0"
+"1   c #9bb93c"
+[end]
+
+[_polygon]
+Type=0x51
+String1=0x04,Wetland
+String2=0x0f,Myr/våtmark
+Xpm="32 32 2 1"
+"#   c #9bd9e9"
+"    c none"
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+"                                "
+"################################"
+"                                "
+"                                "
+[end]
+
+; Polygon drawing level: 7
+
+[_polygon]
+Type=0x3c
+String1=0x04,Water
+String2=0x0f,Vann
+Xpm="0 0 1 0"
+"1   c #9bd9e9"
+[end]
+
+[_polygon]
+Type=0x3f
+String1=0x04,Reservoir
+String2=0x0f,Reservoar
+Xpm="0 0 1 0"
+"1   c #9bd9e9"
+[end]
+
+[_polygon]
+Type=0x46
+String1=0x04,River
+String2=0x0f,Elv
+Xpm="0 0 1 0"
+"1   c #9bd9e9"
+[end]
+
+; Polygon drawing level: 8
+
+[_polygon]
+Type=0x13
+String1=0x04,Building
+String2=0x0f,Bygning
+Xpm="0 0 1 0"
+"1   c #444444"
+[end]
+
+[_line]
+Type=0x0a
+String1=0x04,Track
+String2=0x0f,Traktorvei
+UseOrientation=N
+Xpm="32 2 2 1"
+"#   c #222222"
+"    c none"
+"#############   #############   "
+"#############   #############   "
+[end]
+
+[_line]
+Type=0x16
+String1=0x04,Indistinct trail
+String2=0x0f,Utydelig sti
+UseOrientation=N
+Xpm="32 1 2 1"
+"#   c #222222"
+"    c none"
+"   ####  ####      ####  ####   "
+[end]
+
+[_line]
+Type=0x0e
+String1=0x04,Trail
+String2=0x0f,Sti
+UseOrientation=N
+Xpm="32 1 2 1"
+"#   c #222222"
+"    c none"
+"  ######  ######  ######  ######"
+[end]
+
+[_line]
+Type=0x0f
+String1=0x04,Marked trail
+String2=0x0f,Merket sti
+UseOrientation=N
+Xpm="32 5 2 1"
+"#   c #0546ad"
+"    c none"
+"   ###     ###     ###     ###  "
+"  #####   #####   #####   ##### "
+"  #####   #####   #####   ##### "
+"  #####   #####   #####   ##### "
+"   ###     ###     ###     ###  "
+[end]
+
+[_line]
+Type=0x10e0f
+String1=0x04,Marked trail
+String2=0x0f,Merket sti
+UseOrientation=N
+LineWidth=1
+UseOrientation=N
+Xpm="0 0 1 0"
+"#   c #0546ad"
+[end]
+
+[_line]
+Type=0x13
+String1=0x04,MTB route
+String2=0x0f,MTB route
+LineWidth=4
+UseOrientation=N
+Xpm="0 0 1 0"
+"#   c #b3df5c"
+[end]
+
+[_line]
+Type=0x17
+String1=0x04,Survey
+String2=0x0f,Synfaring
+UseOrientation=N
+Xpm="32 1 2 1"
+"#   c #dd88dd"
+"    c none"
+"   ####  ####      ####  ####   "
+[end]
+
+
+[_line]
+Type=0x30
+String1=0x04,Nordic skiing
+String2=0x0f,Skiløype
+UseOrientation=N
+Xpm="32 5 2 1"
+"#   c #f90025"
+"    c none"
+"################################"
+"################################"
+"                                "
+"                                "
+"                                "
+[end]
+
+[_line]
+Type=0x31
+String1=0x04,Nordic skiing
+String2=0x0f,Skiløype
+UseOrientation=Y
+Xpm="32 5 2 1"
+"#   c #f90025"
+"    c none"
+"         ###                    "
+"       ###                      "
+"################################"
+"################################"
+"################################"
+[end]
+
+[_line]
+Type=0x32
+String1=0x04,Nordic skiing (skating)
+String2=0x0f,Skiløype (skøyting)
+UseOrientation=Y
+Xpm="32 7 2 1"
+"#   c #f90025"
+"    c none"
+"         ###                    "
+"       ###                      "
+"#########################    ###"
+"#########################    ###"
+"#########################    ###"
+"       ###                      "
+"         ###                    "
+[end]
+
+[_line]
+Type=0x33
+String1=0x04,Nordic skiing (scooter)
+String2=0x0f,Skuterløype
+UseOrientation=N
+Xpm="32 5 2 1"
+"#   c #f90025"
+"    c none"
+"############    ############    "
+"############    ############    "
+"                                "
+"                                "
+"                                "
+[end]
+
+[_line]
+Type=0x34
+String1=0x04,Backcountry skiing
+String2=0x0f,Skitråkk
+UseOrientation=N
+Xpm="32 5 2 1"
+"#   c #f90025"
+"    c none"
+"   ##      ##      ##      ##   "
+"   ##      ##      ##      ##   "
+"   ##      ##      ##      ##   "
+"   ##      ##      ##      ##   "
+"                                "
+[end]
+; alternativ til #f90025: #c31e28
+
+[_line]
+Type=0x35
+String1=0x04,Night skiing
+String2=0x0f,Lysløype
+LineWidth=6
+UseOrientation=N
+Xpm="0 0 1 0"
+"#   c #fff675"
+[end]
+
+[_line]
+Type=0x1c
+String1=0x04,Nature reserve
+String2=0x0f,Naturverngrense
+LineWidth=1
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #00d100"
+[end]
+
+[_line]
+Type=0x15
+String1=0x04,Coastline
+String2=0x0f,Kystlinje
+LineWidth=1
+Xpm="0 0 1 0"
+"1   c #009ddd"
+[end]
+
+[_line]
+Type=0x1010a
+String1=0x04,Waterline
+String2=0x0f,Vannkant
+LineWidth=1
+Xpm="0 0 1 0"
+"1   c #009ddd"
+[end]
+
+[_line]
+Type=0x18
+String1=0x04,Stream
+String2=0x0f,Bekk
+LineWidth=1
+Xpm="0 0 1 0"
+"1   c #009ddd"
+[end]
+
+[_line]
+Type=0x1f
+String1=0x04,River
+String2=0x0f,Elv
+LineWidth=2
+Xpm="0 0 1 0"
+"1   c #009ddd"
+[end]
+
+
+[_line]
+Type=0x01
+String1=0x04,Motorway
+String2=0x0f,Motorvei
+LineWidth=4
+BorderWidth=1
+UseOrientation=N
+Xpm="0 0 2 0"
+"1   c #bc5e1e"
+"2   c #000000"
+[end]
+
+[_line]
+Type=0x02
+String1=0x04,Highway
+String2=0x0f,Riksvei
+LineWidth=3
+BorderWidth=1
+UseOrientation=N
+Xpm="0 0 2 0"
+"1   c #bc5e1e"
+"2   c #000000"
+[end]
+
+[_line]
+Type=0x04
+String1=0x04,Highway
+String2=0x0f,Fylkesvei
+LineWidth=2
+BorderWidth=1
+UseOrientation=N
+Xpm="0 0 2 0"
+"1   c #bc5e1e"
+"2   c #000000"
+[end]
+
+[_line]
+Type=0x05
+String1=0x04,Road
+String2=0x0f,Vei
+LineWidth=3
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #000000"
+[end]
+
+[_line]
+Type=0x06
+String1=0x04,Residential street
+String2=0x0f,Boliggate
+LineWidth=2
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #000000"
+[end]
+
+[_line]
+Type=0x07
+String1=0x04,Driveway
+String2=0x0f,Sidevei
+LineWidth=2
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #000000"
+[end]
+
+[_line]
+Type=0x08
+String1=0x04,Ramp
+String2=0x0f,Rampe
+LineWidth=3
+BorderWidth=1
+UseOrientation=N
+Xpm="0 0 2 0"
+"1   c #bc5e1e"
+"2   c #000000"
+[end]
+
+[_line]
+Type=0x0d
+String1=0x04,Cycleway
+String2=0x0f,Sykkelvei
+LineWidth=2
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #000000"
+[end]
+
+[_line]
+Type=0x14
+String1=0x04,Railway
+String2=0x0f,Jernbane
+UseOrientation=N
+Xpm="32 3 2 1"
+"#   c #000000"
+"    c #ffffff"
+"################################"
+"   #########       #########    "
+"################################"
+[end]
+
+[_line]
+Type=0x29
+String1=0x04,Power line
+String2=0x0f,Kraftlinje
+UseOrientation=N
+Xpm="32 5 2 1"
+"#   c #545454"
+"    c none"
+"             #                  "
+"             #                  "
+"################################"
+"             #                  "
+"             #                  "
+[end]
+
+[_line]
+Type=0x1010c
+String1=0x04,Ski lift
+String2=0x0f,Skitrekk
+UseOrientation=N
+Xpm="32 6 2 1"
+"#   c #545454"
+"    c none"
+"################################"
+"              ###               "
+"             ## ##              "
+"            ##   ##             "
+"           ##     ##            "
+"          ##       ##           "
+[end]
+
+[_line]
+Type=0x26
+String1=0x04,Fence
+String2=0x0f,Gjerde
+Xpm="32 3 2 1"
+"#   c #545454"
+"    c none"
+" #               #              "
+"#               #               "
+"################################"
+[end]
+
+[_line]
+Type=0x1010d
+String1=0x04,Stone wall
+String2=0x0f,Steingard
+Xpm="32 4 2 1"
+"#   c #545454"
+"    c none"
+" ##  ##  ##  ##  ##  ##  ##  ## "
+"#  ##  ##  ##  ##  ##  ##  ##  #"
+"#  ##  ##  ##  ##  ##  ##  ##  #"
+" ##  ##  ##  ##  ##  ##  ##  ## "
+[end]
+
+[_line]
+Type=0x1010b
+String1=0x04,Cliff
+String2=0x0f,Stup
+UseOrientation=N
+Xpm="32 6 2 1"
+"#   c #c88546"
+"    c none"
+"       #               #        "
+"       #               #        "
+"      ###             ###       "
+"      ###             ###       "
+"     #####           #####      "
+"################################"
+[end]
+
+[_line]
+Type=0x20
+String1=0x04,Contour line
+String2=0x0f,Høydekurve
+LineWidth=1
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #e0c38d"
+[end]
+
+[_line]
+Type=0x22
+String1=0x04,Contour line
+String2=0x0f,Høydekurve
+LineWidth=1
+UseOrientation=N
+Xpm="0 0 1 0"
+"1   c #c88546"
+[end]
+
+
+[_point]
+Type=0x3901
+String1=0x04,Unprovisioned hut
+String2=0x0f,Ubetjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   ###   ###   "
+" ####     #### "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x3902
+String1=0x04,Provisioned hut
+String2=0x0f,Selvbetjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   ###   ###   "
+" ####     #### "
+"   ##     ##   "
+"   ##    ###   "
+"   ##   ####   "
+"   ##  #####   "
+"   ## ######   "
+"   #########   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2b02
+String1=0x04,Staffed mountain hut
+String2=0x0f,Betjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   #########   "
+" ############# "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2b04
+String1=0x04,Emergency shelter
+String2=0x0f,Ulåst koie/nødbu
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"            ## "
+"         ####  "
+"      #####    "
+"   ########    "
+"    #######    "
+"    ##   ##    "
+"    ##   ##    "
+"    #######    "
+" ############# "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b05
+String1=0x04,Lean-to
+String2=0x0f,Gapahuk
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"           ##  "
+"          ##   "
+"         ##    "
+"        ##     "
+"       ## ###  "
+"      ## ####  "
+"     ##   #    "
+"    ##  ###    "
+"   ## ######   "
+"  ##  ### ##   "
+" ###  ###  ##  "
+" ############# "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x3905
+String1=0x04,Staffed mountain hut
+String2=0x0f,Betjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+[end]
+
+[_point]
+Type=0x3906
+String1=0x04,Provisioned hut
+String2=0x0f,Selvbetjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#    ##"
+"#   ###"
+"#  ####"
+"# #####"
+"#######"
+"#######"
+[end]
+
+[_point]
+Type=0x3907
+String1=0x04,Unprovisioned hut
+String2=0x0f,Ubetjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#     #"
+"#     #"
+"#     #"
+"#     #"
+"#     #"
+"#######"
+[end]
+
+[_point]
+Type=0x3908
+String1=0x04,Daytime hut
+String2=0x0f,Dagsturhytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#    ##"
+"#   # #"
+"#  #  #"
+"# #   #"
+"##    #"
+"#######"
+[end]
+
+[_point]
+Type=0x2b01
+String1=0x04,Hotel
+String2=0x0f,Hotell
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+" #             "
+" #             "
+" #           # "
+" # ##  ####  # "
+" # ## ###### # "
+" #           # "
+" ############# "
+" #           # "
+" #           # "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b06
+String1=0x04,Hostel
+String2=0x0f,Vandrerhjem
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"        ##     "
+"       ####    "
+"     ########  "
+"  ## ########  "
+"  ##  ######   "
+" #### ######   "
+"  ##  ##  ##   "
+" #### ##  ##   "
+"  ##  ##  ##   "
+" ############# "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b07
+String1=0x04,Chalet
+String2=0x0f,Utleiehytte
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"        ##     "
+"      ##  ##   "
+"    ##      ## "
+"     ##     #  "
+"   ######   #  "
+" ########## #  "
+"  ##    ##  #  "
+"  ##    ##  ## "
+"  ########     "
+"  ########     "
+" ##########    "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b03
+String1=0x04,Campground
+String2=0x0f,Teltplass
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"      # #      "
+"       #       "
+"      ###      "
+"      # #      "
+"     ## ##     "
+"    ##   ##    "
+"   ##  #  ##   "
+"  ##  ###  ##  "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x6402
+String1=0x04,Cabin
+String2=0x0f,Hytte
+Xpm="5 5 2 1"
+"#   c #444444"
+"    c none"
+"#####"
+"#####"
+"#####"
+"#####"
+"#####"
+[end]
+
+[_point]
+Type=0x6419
+String1=0x04,Ruin
+String2=0x0f,Ruin/hustuft
+Xpm="5 5 2 1"
+"#   c #444444"
+"    c none"
+"#####"
+"#   #"
+"#   #"
+"#   #"
+"#####"
+[end]
+
+[_point]
+Type=0x2f0b
+String1=0x04,Parking
+String2=0x0f,Parkering
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"   #######     "
+"   #########   "
+"   ###   ####  "
+"   ###    ###  "
+"   ###    ###  "
+"   ###   ####  "
+"   #########   "
+"   #######     "
+"   ###         "
+"   ###         "
+"   ###         "
+"   ###         "
+"   ###         "
+"               "
+[end]
+
+[_point]
+Type=0x2f18
+String1=0x04,Railway station
+String2=0x0f,Jernbanestasjon
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"    ######     "
+"   ########    "
+"  ##  ##  ##   "
+"  ##  ##  ##   "
+"  ####  ####   "
+"  ####  ####   "
+"  # ###### #   "
+"  ##########   "
+"  ############ "
+"   ######## ## "
+"    ##  ##  ## "
+"   ##    ## ## "
+"  ##      #### "
+"               "
+[end]
+
+[_point]
+Type=0x2f08
+String1=0x04,Bus stop
+String2=0x0f,Bussholdeplass
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"   ########### "
+"  # #  #  #  # "
+"  # #  #  #  # "
+" ############# "
+" ##  #####  ## "
+" # ## ### ## # "
+"   ##     ##   "
+"               "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2a0e
+String1=0x04,Hut/café
+String2=0x0f,Dagsturhytte/kafé
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"   ##########  "
+"   ######## #  "
+"   ######## #  "
+"   ##########  "
+"    #######    "
+"     #####     "
+"  ###########  "
+"               "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2a00
+String1=0x04,Restaurant
+String2=0x0f,Spisested
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"   ####  ###   "
+"   ####  ###   "
+"   ####  ###   "
+"   ####  ###   "
+"   ####  ###   "
+"    ##   ###   "
+"    ##   ###   "
+"    ##    ##   "
+"    ##    ##   "
+"    ##    ##   "
+"    ##    ##   "
+"    ##    ##   "
+"    ##    ##   "
+"               "
+[end]
+
+[_point]
+Type=0x6404
+String1=0x04,Sports chapel
+String2=0x0f,Sportskapell
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"       #       "
+"      ###      "
+"      ###      "
+"       #       "
+"      ###      "
+"     #####     "
+"    #######    "
+"   #########   "
+"   ###   ###   "
+"   ###   ###   "
+"   ###   ###   "
+" #####   ##### "
+" #####   ##### "
+"               "
+[end]
+
+[_point]
+Type=0x2c0b
+String1=0x04,Church
+String2=0x0f,Kirke
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"    #          "
+"   ###         "
+"  #####        "
+"               "
+"  #####        "
+"  #####        "
+"  ##########   "
+"  ###########  "
+"  ## ## ## ##  "
+"  ## ## ## ##  "
+"  ## ## ## ##  "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x4a01
+String1=0x04,Fireplace
+String2=0x0f,Ildsted
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"        #      "
+"       ##      "
+"      ####     "
+"      ####     "
+"   ## ### ##   "
+"   ## ## ###   "
+"    ### ###    "
+"     ### #     "
+"  ##       ##  "
+" ##  ## ##  ## "
+" ## ### ### ## "
+"    ##   ##    "
+"               "
+[end]
+
+[_point]
+Type=0x5200
+String1=0x04,Viewpoint
+String2=0x0f,Utsiktspunkt
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"       #       "
+"       #       "
+"   #   #   #   "
+"    #  #  #    "
+"     #   #     "
+"               "
+" ####  #  #### "
+"               "
+"     #   #     "
+"    #  #  #    "
+"   #   #   #   "
+"       #       "
+"       #       "
+"               "
+[end]
+
+[_point]
+Type=0x5201
+String1=0x04,Viewtower
+String2=0x0f,Utsiktstårn
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"        ###    "
+"      #######  "
+"     ###   ### "
+"      #######  "
+"       #   #   "
+"       #   #   "
+"   #   ## ##   "
+"  ###  # # #   "
+"  ###  ## ##   "
+"   #   #   #   "
+"   #   #   #   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2f20
+String1=0x04,Cable ferry
+String2=0x0f,Trekkflåte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"       #       "
+"      ###      "
+"       #       "
+"     ####      "
+" #### ### #### "
+"   # #####     "
+"  #   ###      "
+"  ###########  "
+" ############# "
+"  ###########  "
+"     #   #     "
+"   ##  #  ##   "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2c04
+String1=0x04,Attraction
+String2=0x0f,Severdighet
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"   ##     ##   "
+"  ####   ####  "
+" ##  ## ##  ## "
+" ##  ## ##  ## "
+"  ###########  "
+"   #########   "
+"     ## ##     "
+"   #########   "
+"  ###########  "
+" ##  ## ##  ## "
+" ##  ## ##  ## "
+"  ####   ####  "
+"   ##     ##   "
+"               "
+[end]
+
+[_point]
+Type=0x2c0e
+String1=0x04,Relic
+String2=0x0f,Fornminne
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"    ###        "
+"    ####       "
+"    #####      "
+"    ## ###     "
+"    ##  ###    "
+"    ## ###     "
+"    #####      "
+"    ####       "
+"    #####      "
+"    ## ###     "
+"    ##  ###    "
+"    ##   ###   "
+"    ##    ##   "
+"               "
+[end]
+
+[_point]
+Type=0x4c01
+String1=0x04,Information map
+String2=0x0f,Kartoppslag
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"      ###      "
+"      ###      "
+"      ###      "
+"               "
+"     #####     "
+"      ###      "
+"      ###      "
+"      ###      "
+"      ###      "
+"      ###      "
+"     #####     "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x4c02
+String1=0x04,Signpost
+String2=0x0f,Skiltsted
+Xpm="12 12 2 1"
+"#   c #000000"
+"    c none"
+"     ##     "
+"  #######   "
+" ########   "
+"  #######   "
+"     ##     "
+"   #######  "
+"   ######## "
+"   #######  "
+"     ##     "
+"     ##     "
+"     ##     "
+"     ##     "
+[end]
+
+[_point]
+Type=0x4c04
+String1=0x04,Signpost
+String2=0x0f,Skiltsted
+Xpm="13 13 3 1"
+"#   c #0546ad"
+".   c #7fc3d8"
+"    c none"
+"     ...     "
+"   ...#...   "
+"  ..#####..  "
+" ..#######.. "
+" .#########. "
+"..#########.."
+".###########."
+"..#########.."
+" .#########. "
+" ..#######.. "
+"  ..#####..  "
+"   ...#...   "
+"     ...     "
+[end]
+
+[_point]
+Type=0x4c05
+String1=0x04,Signpost
+String2=0x0f,Skiltsted
+Xpm="13 13 3 1"
+"#   c #0546ad"
+".   c #f90025"
+"    c none"
+"     ...     "
+"   ...#...   "
+"  ..#####..  "
+" ..#######.. "
+" .#########. "
+"..#########.."
+".###########."
+"..#########.."
+" .#########. "
+" ..#######.. "
+"  ..#####..  "
+"   ...#...   "
+"     ...     "
+[end]
+
+[_point]
+Type=0x4c06
+String1=0x04,Signpost
+String2=0x0f,Skiltsted
+Xpm="13 13 3 1"
+"#   c #ff6666"
+".   c #f90025"
+"    c none"
+"     ...     "
+"   ...#...   "
+"  ..#####..  "
+" ..#######.. "
+" .#########. "
+"..#########.."
+".###########."
+"..#########.."
+" .#########. "
+" ..#######.. "
+"  ..#####..  "
+"   ...#...   "
+"     ...     "
+[end]
+
+[_point]
+Type=0x6411
+String1=0x04,Tower
+String2=0x0f,Mast
+Xpm="11 11 2 1"
+"#   c #000000"
+"    c none"
+"     #     "
+"     #     "
+"    ###    "
+"   #####   "
+"  #######  "
+"###########"
+"  #######  "
+"   #####   "
+"    ###    "
+"     #     "
+"     #     "
+[end]
+
+[_point]
+Type=0x6616
+String1=0x04,Summit
+String2=0x0f,Topp
+Xpm="6 6 2 1"
+"#   c #c88546"
+"    c none"
+"#    #"
+" #  # "
+"  ##  "
+"  ##  "
+" #  # "
+"#    #"
+[end]
+
+[_point]
+Type=0x640f
+String1=0x04,Survey point
+String2=0x0f,Fastmerke
+Xpm="8 8 2 1"
+"#   c #c88546"
+"    c none"
+"   ##   "
+"   ##   "
+"  ####  "
+"  #  #  "
+" ##  ## "
+" # ## # "
+"##    ##"
+"########"
+[end]
+
+[_point]
+Type=0x6417
+String1=0x04,Cairn
+String2=0x0f,Varde
+Xpm="8 8 2 1"
+"#   c #545454"
+"    c None"
+"   ##   "
+" ##  ## "
+" #    # "
+"#  ##  #"
+"#  ##  #"
+" #    # "
+" ##  ## "
+"   ##   "
+[end]
+
+[_point]
+Type=0x6614
+String1=0x04,Stone
+String2=0x0f,Stein
+Xpm="4 4 2 1"
+"#   c #545454"
+"    c none"
+" ## "
+"####"
+"####"
+" ## "
+[end]
+
+[_point]
+Type=0x6618
+String1=0x04,Tree
+String2=0x0f,Tre
+Xpm="4 4 2 1"
+"#   c #00d100"
+"    c none"
+" ## "
+"#  #"
+"#  #"
+" ## "
+[end]
+
+[_point]
+Type=0x6608
+String1=0x04,Cave
+String2=0x0f,Grotte
+Xpm="15 15 2 1"
+"    c #007d33"
+"#   c #ffffff"
+"               "
+"     #####     "
+"    #######    "
+"   #### ####   "
+"  ##  #  # ##  "
+"  ##  #  # ##  "
+" ##   #     ## "
+" ##         ## "
+" ##   #  #  ## "
+" ##   #  #  ## "
+" ##   #  #  ## "
+" ### ##  # ### "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x640c
+String1=0x04,Mine
+String2=0x0f,Gruve
+Xpm="15 15 2 1"
+"    c #007d33"
+"#   c #ffffff"
+"               "
+"      ####     "
+"   ##   ####   "
+"  ####    ###  "
+" ####     ###  "
+" #####   ##### "
+" ## ### ### ## "
+"     #####   # "
+"      ###    # "
+"     #####     "
+"    ### ###    "
+"   ###   ###   "
+"  ###     ###  "
+"  ##       ##  "
+"               "
+[end]
+
+[_point]
+Type=0x6508
+String1=0x04,Waterfall
+String2=0x0f,Foss
+Xpm="15 15 2 1"
+"    c #007d33"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"       ####### "
+"      ## ##### "
+"      # ## ##  "
+"     # #  #    "
+"     # # #     "
+"     # # #     "
+"    # # #      "
+"    # # #      "
+"    ### ##     "
+"   ##  #  ##   "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x7011
+String1=0x04,Barrier
+String2=0x0f,Bom
+Xpm="8 8 3 1"
+"#   c #dd261d"
+"-   c #ffffff"
+"    c None"
+"   ##   "
+" ###### "
+" ###### "
+"#------#"
+"#------#"
+" ###### "
+" ###### "
+"   ##   "
+[end]
+
+[_point]
+Type=0x7012
+String1=0x04,Tollroad
+String2=0x0f,Veiavgift
+Xpm="8 8 4 1"
+"# c #dd261d"
+"- c #000000"
+". c #ffffff"
+"  c None"
+"   ##   "
+" ###### "
+" ##..## "
+"##----##"
+"##----##"
+" ##..## "
+" ###### "
+"   ##   "
+[end]

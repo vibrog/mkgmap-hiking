@@ -1,0 +1,2 @@
+name-tag-list = name:no, nat_name, name, short_name, alt_name, old_name, loc_name, reg_name, int_name, official_name, informal_name, mtb:name, piste:name, addr:housename
+levels = 0:24, 1:22, 2:20, 3:18, 4:16

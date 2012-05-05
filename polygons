@@ -1,0 +1,96 @@
+
+#( place=woodland | place=mauntain_range | natural=wood | boundary=protected_area ) & name=* [0x17 resolution 18-12]
+
+landuse=residential [0x02 resolution 17]
+landuse=industrial | landuse=commercial | landuse=retail
+ [0x02 resolution 20-17 continue]
+landuse=farmyard [0x03 resolution 21]
+
+amenity=university | amenity=college
+ | amenity=school | amenity=kindergarten
+ [0x0a resolution 21]
+
+landuse=retail [0x08 resolution 21]
+amenity=hospital | healthcare=* [0x08 resolution 21]
+
+landuse=industrial | landuse=commercial [0x0c resolution 21]
+landuse=quarry| landuse=brownfield | landuse=landfill [0x0c resolution 21]
+
+landuse=farm | landuse=farmland [0x4e resolution 20]
+landuse=vineyard | landuse=orchard [0x4e resolution 20]
+landuse=allotments [0x4e resolution 20]
+landuse=meadow [0x22 resolution 20]
+
+leisure=park [0x17 resolution 21]
+landuse=recreation_ground [0x17 resolution 21]
+landuse=village_green [0x17 resolution 21]
+leisure=common [0x17 resolution 21]
+leisure=garden [0x17 resolution 21]
+leisure=playground [0x17 resolution 21]
+landuse=field [0x17 resolution 21]
+landuse=greenfield [0x17 resolution 21]
+landuse=grass [0x17 resolution 21]
+
+landuse=cemetery | landuse=cemetary [0x1a resolution 22]
+amenity=grave_yard [0x1a resolution 22]
+
+leisure=stadium [0x19 resolution 22]
+leisure=sports_center | leisure=sports_centre [0x19 resolution 22]
+leisure=pitch [0x19 resolution 22]
+leisure=track & area=yes [0x19 resolution 22]
+leisure=ice_rink [0x19 resolution 22]
+
+leisure=golf_course [0x18 resolution 21]
+leisure=miniature_golf [0x18 resolution 22]
+
+natural=sea [0x32 resolution 10]
+natural=water & name=* [0x3c resolution 19-18 continue]
+natural=water [0x3c resolution 20]
+landuse=reservoir | landuse=basin [0x3f resolution 20]
+waterway=riverbank [0x46 resolution 20]
+
+natural=wood | landuse=forest [0x50 resolution 16]
+natural=scrub [0x4f resolution 16]
+natural=heath [0x4f resolution 16]
+natural=glacier [0x4d resolution 16]
+
+aeroway=airport [0x07 resolution 18]
+aeroway=aerodrome [0x07 resolution 18]
+
+landuse=military [0x04 resolution 18]
+military=airfield [0x04 resolution 18]
+military=barracks [0x04 resolution 18]
+military=danger_area [0x04 resolution 18]
+military=range [0x04 resolution 18]
+amenity=prison [0x04 resolution 22]
+
+natural=wetland | natural=marsh [0x51 resolution 20]
+
+# squares and plazas
+highway=pedestrian & area=yes [0x05 resolution 20]
+# other highways that have area=yes set must be parking lots
+amenity=parking | parking=surface [0x05 resolution 21]
+highway=* & area=yes [0x05 resolution 21]
+landuse=depot [0x05 resolution 21]
+waterway=boatyard [0x05 resolution 21]
+
+# building tag should be last
+building=house | building=detached | building=terrace
+ | building=apartments | building=residential
+ | building=cabin | building=hut
+ | building=garage| building=barn | building=shed
+ | military=barracks
+ [0x13 resolution 24]
+building=* | shop=* [0x13 resolution 23]
+amenity=supermarket [0x13 resolution 23]
+man_made=works | man_made=storage_tank
+ | man_made=silo | man_made=water_tower [0x13 resolution 23]
+man_made=* & area=yes [0x13 resolution 23]
+aeroway=terminal | aeroway=hangar [0x13 resolution 23]
+railway=station [0x13 resolution 23]
+historic=castle [0x13 resolution 23]
+amenity=public_building [0x13 resolution 23]
+amenity=townhall [0x13 resolution 23]
+amenity=courthouse [0x13 resolution 23]
+amenity=place_of_worship [0x13 resolution 23]
+military=bunker [0x13 resolution 23]

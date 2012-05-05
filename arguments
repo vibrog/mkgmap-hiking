@@ -1,0 +1,22 @@
+family-id = 984
+product-id = 1
+mapname = 65984001
+
+family-name = Oslomarka OSM
+series-name = Oslomarka OSM
+description = Turkart for Oslomarka med OpenStreetMap-data
+region-name = Oslomarka
+country-name = Norway
+country-abbr = NOR
+copyright-message = OpenStreetMap-bidragsytere, Vidar Bronken Gundersen, CC BY-SA
+
+reduce-point-density = 4
+reduce-point-density-polygon = 5.6
+merge-lines
+remove-short-arcs
+ignore-osm-bounds
+generate-sea = extend-sea-sectors,floodblocker
+latin1
+lower-case
+#route
+#draw-priority = 18
