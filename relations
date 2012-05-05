@@ -1,1 +1,1 @@
-type=route & route=bicycle & network=mtb | type=route & route=mtb { apply { set route=mtb; }}
+type=route & ( route=mtb | route=bicycle & network=mtb ) { apply { set route=mtb; }}
