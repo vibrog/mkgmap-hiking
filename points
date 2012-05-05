@@ -38,11 +38,13 @@ amenity=bbq [0x4a01 resolution 24]
 # Private navngitte hytter
 building=cabin & name=* [0x6402 resolution 23]
 
+# Overnattingssteder
 tourism=hotel | tourism=motel [0x2b01 resolution 24]
 tourism=camp_site [0x2b03 resolution 21]
 tourism=hostel [0x2b06 resolution 21]
 tourism=chalet [0x2b07 resolution 21]
 
+# Skiltsteder
 information=guidepost {name '${name} ${øx:iid}' | '${name}'}
 information=guidepost & hiking=yes & ski!=*  [0x4c04 resolution 23]
 information=guidepost & hiking=yes & ski=yes [0x4c05 resolution 23]
@@ -50,6 +52,7 @@ information=guidepost & hiking!=*  & ski=yes [0x4c06 resolution 23]
 information=guidepost & hiking!=*  & ski!=*  [0x4c02 resolution 24]
 tourism=information & information=map [0x4c01 resolution 24]
 
+# Utfartssteder
 amenity=parking & hiking=yes [0x2f0b resolution 21]
 amenity=parking [0x2f0b resolution 24]
 railway=station [0x2f18 resolution 21]
@@ -57,39 +60,38 @@ railway=halt [0x2f18 resolution 22]
 # railway=tram_stop [0x2f19 resolution 24]
 highway=bus_stop | amenity=bus_station [0x2f08 resolution 23]
 
+# Severdigheter og landemerker
 tourism=viewpoint & man_made=tower [0x5201 resolution 21]
 tourism=viewpoint [0x5200 resolution 23]
+amenity=place_of_worship & hiking=yes [0x6404 resolution 21]
+amenity=place_of_worship [0x2c0b resolution 24]
 tourism=attraction [0x2c04 resolution 23]
 historic=ruins | building=collapsed [0x6419 resolution 24]
 historic=* [0x2c0e resolution 24]
-amenity=place_of_worship & hiking=yes [0x6404 resolution 21]
-amenity=place_of_worship [0x2c0b resolution 24]
-
-barrier=gate | barrier=lift_gate | barrier=swing_gate | barrier=bump_gate
- | barrier=bollard | barrier=block | barrier=chain [0x7011 resolution 24]
-barrier=toll_booth [0x7012 resolution 23]
-
+natural=cave_entrance [0x6608 resolution 24]
+man_made=mineshaft | man_made=adit | historic=mine [0x640c resolution 24]
 natural=peak [0x6616 resolution 21]
 man_made=tower | man_made=windmill | man_made=lighthouse [0x6411 resolution 22]
-man_made=cairn | historic=memorial | historic=monument | historic=boundary_stone [0x6417 resolution 23]
 man_made=survey_point [0x640f resolution 24]
+man_made=cairn | historic=memorial | historic=monument | historic=boundary_stone [0x6417 resolution 23]
 natural=stone & (name=* | website=*) [0x6614 resolution 22]
 natural=stone [0x6614 resolution 24]
 natural=tree & (name=* | website=*) [0x6618 resolution 22]
 natural=tree [0x6618 resolution 24]
+waterway=waterfall | natural=waterfall [0x6508 resolution 24]
 
+# Hindringer
+barrier=gate | barrier=lift_gate | barrier=swing_gate | barrier=bump_gate
+ | barrier=bollard | barrier=block | barrier=chain [0x7011 resolution 24]
+barrier=toll_booth [0x7012 resolution 23]
 man_made=raft [0x2f20 resolution 24]
 # highway=ford [0x2f21 resolution 24]
 
-natural=cave_entrance [0x6608 resolution 24]
-man_made=mineshaft | man_made=adit | historic=mine [0x640c resolution 24]
-waterway=waterfall | natural=waterfall [0x6508 resolution 24]
 
 # sport=shooting [0x5700 resolution 23]
 # sport=shooting & type=clay_pigeon [0x5701 resolution 23]
 # sport=biathlon [0x5701 resolution 23]
 # sport=climbing [0x2d12 resolution 23]
-
 # amenity=drinking_water | natural=spring [0x6414 resolution 24]
 # tourism=picnic_site | leisure=picnic_table 0x4a00
 # tourism=attraction & historic=* | tourism=museum [0x2c02 resolution 23]
