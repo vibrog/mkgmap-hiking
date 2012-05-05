@@ -1,17 +1,15 @@
 
 # mkgmap style for OSM hiking maps
 
-[Style rules][10] and [TYP definitions][1] for
-making a hiking map (suitable for [Oslomarka][2])
-from [OpenStreetMap](http://www.openstreetmap.org/) data
+[Style rules][1] and [TYP definitions][2] for making a
+hiking map from [OpenStreetMap](http://www.openstreetmap.org/) data
 for a [Garmin GPS][3] using [mkgmap][4].
 The cartography is adopted from hiking maps by
-[Asker Skiklubb](http://asker-skiklubb.no/) and
-open [symbol][5] and [color][6] standards from the
+[Asker Skiklubb](http://asker-skiklubb.no/)
+and a [symbol standard][5] from the
 [Norwegian Mapping Authority](http://www.statkart.no/).
 
-Use [cGPSmapper][7] or mkgmap to build the TYP file from `hiking_typdef.txt`.
-The [online TYP editor at ATI land][8] is also a neat tool.
+Build the TYP file from `hiking_typdef.txt` with [cGPSmapper][6].
 Then build the map file using mkgmap:
 
     sty=$mkgmap_style_folder/hiking
@@ -21,18 +19,18 @@ Then build the map file using mkgmap:
 
 For large areas you'll need to use a splitter.
 
+An example map file covering [Oslomarka][8] is available at
+<http://www.vidargundersen.com/hikingmap.img>
+
 Created by Vidar Bronken Gundersen.
 [CC BY][9]
 
-[10]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
-[1]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
-[2]: http://no.wikipedia.org/wiki/Marka_(Oslo)
+[1]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
+[2]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
 [3]: http://www.garmin.com/us/products/onthetrail
 [4]: http://www.mkgmap.org.uk/
 [5]: http://www.statkart.no/filestore/Standardisering/docs/symbol.pdf
   "Symbolfonter for friluftsliv og sport (1997). Statens kartverk Landkartdivisjonen, ISBN 82-90408-52-8"
-[6]: http://www.statkart.no/Skjermkartografi.d25-SwJjM0n.ips
-  "Spesifikasjon for skjermkartografi"
-[7]: http://www.cgpsmapper.com/
-[8]: http://ati.land.cz/gps/typdecomp/editor.cgi
+[6]: http://www.cgpsmapper.com/
+[8]: http://no.wikipedia.org/wiki/Marka_(Oslo)
 [9]: http://creativecommons.org/licenses/by/3.0/
