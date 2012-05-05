@@ -24,7 +24,7 @@ For large areas you'll need to use a splitter.
 Created by Vidar Bronken Gundersen.
 [CC BY][9]
 
-[10: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
+[10]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
 [1]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
 [2]: http://no.wikipedia.org/wiki/Marka_(Oslo)
 [3]: http://www.garmin.com/us/products/onthetrail
