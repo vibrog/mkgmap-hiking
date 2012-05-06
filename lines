@@ -5,20 +5,6 @@ route=mtb | mtb:name=*  [0x13 resolution 23 continue]
 marked_trail=blue | trailblazed=yes [0x10e0f resolution 20-18 continue]
 marked_trail=blue | trailblazed=yes [0x0f resolution 21 continue]
 
-fixme=resurvey
- & amenity!=*
- & barrier!=*
- & boundary!=*
- & building!=*
- & landuse!=*
- & leisure!=*
- & man_made!=*
- & natural!=*
- & power!=*
- & railway!=*
- & waterway!=*
- [0x17 resolution 23 continue]
-
 piste:type=nordic
  & piste:grooming!=scooter
  & piste:grooming!=backcountry [0x30 resolution 21 continue]
@@ -33,8 +19,6 @@ highway=path &
  [0x16 road_class=0 road_speed=0 resolution 24]
 highway=path [0x0e road_class=0 road_speed=0 resolution 22]
 highway=track [0x0a road_class=0 road_speed=1 resolution 21]
-
-# the above is identical to rules in ../overlay/lines
 
 boundary=national_park [0x1c resolution 16]
 leisure=nature_reserve [0x1c resolution 21]
@@ -91,9 +75,6 @@ highway=pedestrian & area!=yes [0x0e road_class=0 road_speed=0 resolution 22]
 highway=steps [0x0e road_class=0 road_speed=0 resolution 22]
 highway=bridleway [0x0e road_class=0 road_speed=0 resolution 22]
 
-#highway=track [0x0a road_class=0 road_speed=0 resolution 21]
-#highway=path [0x0e road_class=0 road_speed=0 resolution 23]
-
 # Mop up any unrecognised highway types
 highway=* & area!=yes [0x06 resolution 22]
 
@@ -106,12 +87,9 @@ power=minor_line [0x29 resolution 23]
 aerialway=drag_lift | aerialway=chair_lift | aerialway=gondola [0x1010c resolution 23]
 
 railway=rail [0x14 resolution 17]
-railway=subway [0x14 resolution 17]
-#railway=light_rail [0x14 resolution 17]
-#railway=tram [0x14 resolution 18]
+railway=subway | railway=light_rail [0x14 resolution 21]
 
-aeroway=runway [0x27 resolution 20]
-#route=ferry [0x1a road_class=0 road_speed=0 resolution 18]
+aeroway=runway [0x27 resolution 21]
 
 #natural=coastline | natural=sea [0x18 resolution 20 continue]
 natural=water [0x1010a resolution 20 continue]

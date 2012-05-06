@@ -1,6 +1,4 @@
 
-#( place=woodland | place=mauntain_range | natural=wood | boundary=protected_area ) & name=* [0x17 resolution 18-12]
-
 landuse=residential [0x02 resolution 17]
 landuse=industrial | landuse=commercial | landuse=retail
  [0x02 resolution 20-17 continue]
