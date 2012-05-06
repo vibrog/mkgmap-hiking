@@ -87,11 +87,13 @@ barrier=toll_booth [0x7012 resolution 23]
 man_made=raft [0x2f20 resolution 24]
 # highway=ford [0x2f21 resolution 24]
 
-
+# Aktiviteter
+sport=climbing [0x2d12 resolution 24]
+# sport=free_flying | free_flying:site=takeoff [0x2d14 resolution 24]
 # sport=shooting [0x5700 resolution 23]
 # sport=shooting & type=clay_pigeon [0x5701 resolution 23]
 # sport=biathlon [0x5701 resolution 23]
-# sport=climbing [0x2d12 resolution 23]
 # amenity=drinking_water | natural=spring [0x6414 resolution 24]
 # tourism=picnic_site | leisure=picnic_table 0x4a00
 # tourism=attraction & historic=* | tourism=museum [0x2c02 resolution 23]
+# man_made=surveillance & surveillance=webcam [0x____ resolution 24]
