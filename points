@@ -85,3 +85,7 @@ barrier=gate | barrier=lift_gate | barrier=swing_gate | barrier=bump_gate
  | barrier=bollard | barrier=block | barrier=chain [0x7011 resolution 24]
 barrier=toll_booth [0x7012 resolution 23]
 man_made=raft [0x2f20 resolution 24]
+
+# Aktiviteter
+sport=climbing [0x2d12 resolution 24]
+sport=free_flying | free_flying:site=takeoff [0x2d14 resolution 24]
