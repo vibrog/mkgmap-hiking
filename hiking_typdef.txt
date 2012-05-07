@@ -685,190 +685,6 @@ Xpm="0 0 1 0"
 
 
 [_point]
-Type=0x3901
-String1=0x04,Unprovisioned hut
-String2=0x0f,Ubetjent hytte
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"               "
-"       #       "
-"     #####     "
-"   ###   ###   "
-" ####     #### "
-"   ##     ##   "
-"   ##     ##   "
-"   ##     ##   "
-"   ##     ##   "
-"   ##     ##   "
-"   ##     ##   "
-" ############# "
-" ############# "
-"               "
-[end]
-
-[_point]
-Type=0x3902
-String1=0x04,Provisioned hut
-String2=0x0f,Selvbetjent hytte
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"               "
-"       #       "
-"     #####     "
-"   ###   ###   "
-" ####     #### "
-"   ##     ##   "
-"   ##    ###   "
-"   ##   ####   "
-"   ##  #####   "
-"   ## ######   "
-"   #########   "
-" ############# "
-" ############# "
-"               "
-[end]
-
-[_point]
-Type=0x2b02
-String1=0x04,Staffed mountain hut
-String2=0x0f,Betjent hytte
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"               "
-"       #       "
-"     #####     "
-"   #########   "
-" ############# "
-"   #########   "
-"   #########   "
-"   #########   "
-"   #########   "
-"   #########   "
-"   #########   "
-" ############# "
-" ############# "
-"               "
-[end]
-
-[_point]
-Type=0x2b04
-String1=0x04,Emergency shelter
-String2=0x0f,Ulåst koie/nødbu
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"               "
-"               "
-"               "
-"            ## "
-"         ####  "
-"      #####    "
-"   ########    "
-"    #######    "
-"    ##   ##    "
-"    ##   ##    "
-"    #######    "
-" ############# "
-"               "
-"               "
-[end]
-
-[_point]
-Type=0x2b05
-String1=0x04,Lean-to
-String2=0x0f,Gapahuk
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"           ##  "
-"          ##   "
-"         ##    "
-"        ##     "
-"       ## ###  "
-"      ## ####  "
-"     ##   #    "
-"    ##  ###    "
-"   ## ######   "
-"  ##  ### ##   "
-" ###  ###  ##  "
-" ############# "
-"               "
-"               "
-[end]
-
-[_point]
-Type=0x3905
-String1=0x04,Staffed mountain hut
-String2=0x0f,Betjent hytte
-Xpm="7 7 2 1"
-"# c #d0006f"
-"  c #ffffff"
-"#######"
-"#######"
-"#######"
-"#######"
-"#######"
-"#######"
-"#######"
-[end]
-
-[_point]
-Type=0x3906
-String1=0x04,Provisioned hut
-String2=0x0f,Selvbetjent hytte
-Xpm="7 7 2 1"
-"# c #d0006f"
-"  c #ffffff"
-"#######"
-"#    ##"
-"#   ###"
-"#  ####"
-"# #####"
-"#######"
-"#######"
-[end]
-
-[_point]
-Type=0x3907
-String1=0x04,Unprovisioned hut
-String2=0x0f,Ubetjent hytte
-Xpm="7 7 2 1"
-"# c #d0006f"
-"  c #ffffff"
-"#######"
-"#     #"
-"#     #"
-"#     #"
-"#     #"
-"#     #"
-"#######"
-[end]
-
-[_point]
-Type=0x3908
-String1=0x04,Daytime hut
-String2=0x0f,Dagsturhytte
-Xpm="7 7 2 1"
-"# c #d0006f"
-"  c #ffffff"
-"#######"
-"#    ##"
-"#   # #"
-"#  #  #"
-"# #   #"
-"##    #"
-"#######"
-[end]
-
-[_point]
 Type=0x2b01
 String1=0x04,Hotel
 String2=0x0f,Hotell
@@ -893,7 +709,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2b06
+Type=0x2b02
 String1=0x04,Hostel
 String2=0x0f,Vandrerhjem
 Xpm="15 15 2 1"
@@ -912,30 +728,6 @@ Xpm="15 15 2 1"
 " #### ##  ##   "
 "  ##  ##  ##   "
 " ############# "
-"               "
-"               "
-[end]
-
-[_point]
-Type=0x2b07
-String1=0x04,Chalet
-String2=0x0f,Utleiehytte
-Xpm="15 15 2 1"
-"    c #007db4"
-"#   c #ffffff"
-"               "
-"               "
-"        ##     "
-"      ##  ##   "
-"    ##      ## "
-"     ##     #  "
-"   ######   #  "
-" ########## #  "
-"  ##    ##  #  "
-"  ##    ##  ## "
-"  ########     "
-"  ########     "
-" ##########    "
 "               "
 "               "
 [end]
@@ -962,6 +754,214 @@ Xpm="15 15 2 1"
 "               "
 "               "
 "               "
+[end]
+
+[_point]
+Type=0x2b04
+String1=0x04,Chalet
+String2=0x0f,Utleiehytte
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"        ##     "
+"      ##  ##   "
+"    ##      ## "
+"     ##     #  "
+"   ######   #  "
+" ########## #  "
+"  ##    ##  #  "
+"  ##    ##  ## "
+"  ########     "
+"  ########     "
+" ##########    "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b05
+String1=0x04,Staffed mountain hut
+String2=0x0f,Betjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   #########   "
+" ############# "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+"   #########   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2b06
+String1=0x04,Provisioned hut
+String2=0x0f,Selvbetjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   ###   ###   "
+" ####     #### "
+"   ##     ##   "
+"   ##    ###   "
+"   ##   ####   "
+"   ##  #####   "
+"   ## ######   "
+"   #########   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2b07
+String1=0x04,Unprovisioned hut
+String2=0x0f,Ubetjent hytte
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"     #####     "
+"   ###   ###   "
+" ####     #### "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+"   ##     ##   "
+" ############# "
+" ############# "
+"               "
+[end]
+
+[_point]
+Type=0x2b08
+String1=0x04,Emergency shelter
+String2=0x0f,Ulåst koie/nødbu
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"            ## "
+"         ####  "
+"      #####    "
+"   ########    "
+"    #######    "
+"    ##   ##    "
+"    ##   ##    "
+"    #######    "
+" ############# "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b09
+String1=0x04,Lean-to
+String2=0x0f,Gapahuk
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"           ##  "
+"          ##   "
+"         ##    "
+"        ##     "
+"       ## ###  "
+"      ## ####  "
+"     ##   #    "
+"    ##  ###    "
+"   ## ######   "
+"  ##  ### ##   "
+" ###  ###  ##  "
+" ############# "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2b10
+String1=0x04,Staffed mountain hut
+String2=0x0f,Betjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+"#######"
+[end]
+
+[_point]
+Type=0x2b11
+String1=0x04,Provisioned hut
+String2=0x0f,Selvbetjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#    ##"
+"#   ###"
+"#  ####"
+"# #####"
+"#######"
+"#######"
+[end]
+
+[_point]
+Type=0x2b12
+String1=0x04,Unprovisioned hut
+String2=0x0f,Ubetjent hytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#     #"
+"#     #"
+"#     #"
+"#     #"
+"#     #"
+"#######"
+[end]
+
+[_point]
+Type=0x2b13
+String1=0x04,Daytime hut
+String2=0x0f,Dagsturhytte
+Xpm="7 7 2 1"
+"# c #d0006f"
+"  c #ffffff"
+"#######"
+"#    ##"
+"#   # #"
+"#  #  #"
+"# #   #"
+"##    #"
+"#######"
 [end]
 
 [_point]
@@ -1113,7 +1113,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x6404
+Type=0x2c0c
 String1=0x04,Sports chapel
 String2=0x0f,Sportskapell
 Xpm="15 15 2 1"
