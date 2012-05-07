@@ -1,95 +1,99 @@
 
+# 0x2b00-0x2b3f - Lodging / accommodation
 # Betjent hytte, fjellstue
-tourism=alpine_hut | tourism=guest_house [0x3905 resolution 20-10 continue]
-tourism=alpine_hut | tourism=guest_house [0x2b02 resolution 21]
-
+tourism=alpine_hut | tourism=guest_house [0x2b10 resolution 20-10 continue]
+tourism=alpine_hut | tourism=guest_house [0x2b05 resolution 21]
 # Proviantert/selvbetjent hytte
-tourism=wilderness_hut & shop=provisions [0x3906 resolution 20-10 continue]
-tourism=wilderness_hut & shop=provisions [0x3902 resolution 21]
-tourism=cabin & service=self [0x3906 resolution 20-10 continue]
-tourism=cabin & service=self [0x3902 resolution 21]
-
+tourism=wilderness_hut & shop=provisions [0x2b11 resolution 20-10 continue]
+tourism=wilderness_hut & shop=provisions [0x2b06 resolution 21]
+tourism=cabin & service=self [0x2b11 resolution 20-10 continue]
+tourism=cabin & service=self [0x2b06 resolution 21]
 # Ubetjent hytte
-tourism=wilderness_hut & shop!=* [0x3907 resolution 20-10 continue]
-tourism=wilderness_hut & shop!=* [0x3901 resolution 21]
-tourism=cabin & service=no [0x3907 resolution 20-10 continue]
-tourism=cabin & service=no [0x3901 resolution 21]
-
-# Åpen koie/nødbu/rastebu
-tourism=basic_hut [0x3907 resolution 20-10 continue]
-tourism=basic_hut [0x2b04 resolution 21]
-tourism=cabin & (access=public|emergency=yes) [0x3907 resolution 20-10 continue]
-tourism=cabin & (access=public|emergency=yes) [0x2b04 resolution 21]
-
-# Dagsturhytte/serveringssteder
-(amenity=cafe|amenity=restaurant) & tourism=* [0x3908 resolution 20-10 continue]
+tourism=wilderness_hut & shop!=* [0x2b12 resolution 20-10 continue]
+tourism=wilderness_hut & shop!=* [0x2b07 resolution 21]
+tourism=cabin & service=no [0x2b12 resolution 20-10 continue]
+tourism=cabin & service=no [0x2b07 resolution 21]
+# 0x2a - Restaurants / dining (serveringssteder, dagsturhytte)
+(amenity=cafe|amenity=restaurant) & tourism=* [0x2b13 resolution 20-10 continue]
 amenity=cafe & tourism=* [0x2a0e resolution 23-21 continue]
-amenity=restaurant & tourism=* [0x2a00 resolution 23-21 continue]
 amenity=cafe [0x2a0e resolution 24]
+amenity=restaurant & tourism=* [0x2a00 resolution 23-21 continue]
 amenity=restaurant | amenity=fast_food [0x2a00 resolution 24]
-
+# Åpen koie/nødbu/rastebu
+tourism=basic_hut [0x2b12 resolution 20-10 continue]
+tourism=basic_hut [0x2b08 resolution 21]
+tourism=cabin & (access=public|emergency=yes) [0x2b12 resolution 20-10 continue]
+tourism=cabin & (access=public|emergency=yes) [0x2b08 resolution 21]
 # Gapahuk
-amenity=shelter | tourism=lean_to [0x2b05 resolution 21]
+amenity=shelter | tourism=lean_to [0x2b09 resolution 21]
+# Overnattingssteder
+tourism=hotel | tourism=motel [0x2b01 resolution 24]
+tourism=hostel [0x2b02 resolution 21]
+tourism=camp_site [0x2b03 resolution 21]
+tourism=chalet [0x2b04 resolution 21]
 
-# Bålplass
+# Private navngitte hytter, hustufter
+building=cabin & name=* [0x6402 resolution 23]
+historic=ruins | building=collapsed [0x6419 resolution 24]
+
+# 0x4a - Picnic
 amenity=bbq & access=official [0x4a01 resolution 22]
 amenity=bbq [0x4a01 resolution 24]
 
-# Private navngitte hytter
-building=cabin & name=* [0x6402 resolution 23]
-
-# Overnattingssteder
-tourism=hotel | tourism=motel [0x2b01 resolution 24]
-tourism=camp_site [0x2b03 resolution 21]
-tourism=hostel [0x2b06 resolution 21]
-tourism=chalet [0x2b07 resolution 21]
-
-# Skiltsteder
+# 0x4c - Information
+tourism=information & information=map [0x4c01 resolution 24]
 information=guidepost {name '${name} ${øx:iid}' | '${name}'}
+information=guidepost & hiking!=*  & ski!=*  [0x4c02 resolution 24]
 information=guidepost & hiking=yes & ski!=*  [0x4c04 resolution 23]
 information=guidepost & hiking=yes & ski=yes [0x4c05 resolution 23]
 information=guidepost & hiking!=*  & ski=yes [0x4c06 resolution 23]
-information=guidepost & hiking!=*  & ski!=*  [0x4c02 resolution 24]
-tourism=information & information=map [0x4c01 resolution 24]
 
-# Utfartssteder
+# 0x2f - Transportation
+highway=bus_stop | amenity=bus_station [0x2f08 resolution 23]
 amenity=parking & hiking=yes [0x2f0b resolution 21]
 amenity=parking [0x2f0b resolution 24]
 railway=station [0x2f18 resolution 21]
 railway=halt [0x2f18 resolution 22]
 # railway=tram_stop [0x2f19 resolution 24]
-highway=bus_stop | amenity=bus_station [0x2f08 resolution 23]
+man_made=raft [0x2f20 resolution 24]
+# highway=ford [0x2f21 resolution 24]
 
-# Severdigheter og landemerker
-tourism=viewpoint & man_made=tower [0x5201 resolution 21]
-tourism=viewpoint [0x5200 resolution 23]
-amenity=place_of_worship & hiking=yes [0x6404 resolution 21]
+# 0x2c - Attractions / community
+amenity=place_of_worship & hiking=yes [0x2c0c resolution 21]
 amenity=place_of_worship [0x2c0b resolution 24]
 tourism=attraction [0x2c04 resolution 23]
-historic=ruins | building=collapsed [0x6419 resolution 24]
 historic=* [0x2c0e resolution 24]
-natural=cave_entrance [0x6608 resolution 24]
+
+# 0x52 - Sights
+tourism=viewpoint & man_made=tower [0x5201 resolution 21]
+tourism=viewpoint [0x5200 resolution 23]
+
+# 0x64 - Geographical (man-made)
 man_made=mineshaft | man_made=adit | historic=mine [0x640c resolution 24]
-natural=peak [0x6616 resolution 21]
-man_made=tower | man_made=windmill | man_made=lighthouse [0x6411 resolution 22]
 man_made=survey_point [0x640f resolution 24]
-man_made=cairn | historic=memorial | historic=monument | historic=boundary_stone [0x6417 resolution 23]
+man_made=tower | man_made=windmill | man_made=lighthouse [0x6411 resolution 22]
+man_made=cairn | historic=memorial | historic=monument
+ | boundary=marker | historic=boundary_stone [0x6417 resolution 23]
+
+# 0x65 - Geographical (water-based)
+waterway=waterfall | natural=waterfall [0x6508 resolution 24]
+
+# 0x66 - Geographical (land-based)
+natural=peak [0x6616 resolution 21]
+natural=cave_entrance [0x6608 resolution 24]
 natural=stone & (name=* | website=*) [0x6614 resolution 22]
 natural=stone [0x6614 resolution 24]
 natural=tree & (name=* | website=*) [0x6618 resolution 22]
 natural=tree [0x6618 resolution 24]
-waterway=waterfall | natural=waterfall [0x6508 resolution 24]
 
-# Hindringer
+# 0x25 - Barriers
 barrier=gate | barrier=lift_gate | barrier=swing_gate | barrier=bump_gate
  | barrier=bollard | barrier=block | barrier=chain [0x7011 resolution 24]
 barrier=toll_booth [0x7012 resolution 23]
-man_made=raft [0x2f20 resolution 24]
-# highway=ford [0x2f21 resolution 24]
 
-# Aktiviteter
+# 0x2d - Entertainment / recreation
 sport=climbing [0x2d12 resolution 24]
-sport=free_flying | free_flying:site=takeoff [0x2d14 resolution 24]
+sport=free_flying | sport=paragliding [0x2d14 resolution 24]
 # sport=shooting [0x5700 resolution 23]
 # sport=shooting & type=clay_pigeon [0x5701 resolution 23]
 # sport=biathlon [0x5701 resolution 23]
