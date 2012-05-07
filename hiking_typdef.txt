@@ -1281,6 +1281,30 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
+Type=0x2d14
+String1=0x04,Air sport
+String2=0x0f,Luftsport
+Xpm="15 15 2 1"
+"    c #d0006f"
+"#   c #ffffff"
+"               "
+"               "
+"    ###        "
+"    #######    "
+"    ########## "
+"  #########    "
+"   #####       "
+"  #### #       "
+" ##    # ##    "
+"     ######    "
+"   ######      "
+"    ##  ###    "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
 Type=0x2c04
 String1=0x04,Attraction
 String2=0x0f,Severdighet
