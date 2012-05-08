@@ -2,17 +2,17 @@
 # 0x2b00-0x2b3f - Lodging / accommodation
 # Betjent hytte, fjellstue
 tourism=alpine_hut | tourism=guest_house [0x3902 resolution 20-10 continue]
-tourism=alpine_hut | tourism=guest_house [0x2b02 resolution 21]
+tourism=alpine_hut | tourism=guest_house [0x3906 resolution 21]
 # Proviantert/selvbetjent hytte
 tourism=wilderness_hut & shop=provisions [0x3903 resolution 20-10 continue]
-tourism=wilderness_hut & shop=provisions [0x2b04 resolution 21]
+tourism=wilderness_hut & shop=provisions [0x3907 resolution 21]
 tourism=cabin & service=self [0x3903 resolution 20-10 continue]
-tourism=cabin & service=self [0x2b04 resolution 21]
+tourism=cabin & service=self [0x3907 resolution 21]
 # Ubetjent hytte
 tourism=wilderness_hut & shop!=* [0x3904 resolution 20-10 continue]
-tourism=wilderness_hut & shop!=* [0x2b05 resolution 21]
+tourism=wilderness_hut & shop!=* [0x3908 resolution 21]
 tourism=cabin & service=no [0x3904 resolution 20-10 continue]
-tourism=cabin & service=no [0x2b05 resolution 21]
+tourism=cabin & service=no [0x3908 resolution 21]
 # 0x2a - Restaurants / dining (serveringssteder, dagsturhytte)
 (amenity=cafe|amenity=restaurant) & tourism=* [0x3905 resolution 20-10 continue]
 amenity=cafe & tourism=* [0x2a0e resolution 23-21 continue]
