@@ -1,36 +1,36 @@
 
 # 0x2b00-0x2b3f - Lodging / accommodation
 # Betjent hytte, fjellstue
-tourism=alpine_hut | tourism=guest_house [0x2b10 resolution 20-10 continue]
-tourism=alpine_hut | tourism=guest_house [0x2b05 resolution 21]
+tourism=alpine_hut | tourism=guest_house [0x3902 resolution 20-10 continue]
+tourism=alpine_hut | tourism=guest_house [0x2b02 resolution 21]
 # Proviantert/selvbetjent hytte
-tourism=wilderness_hut & shop=provisions [0x2b11 resolution 20-10 continue]
-tourism=wilderness_hut & shop=provisions [0x2b06 resolution 21]
-tourism=cabin & service=self [0x2b11 resolution 20-10 continue]
-tourism=cabin & service=self [0x2b06 resolution 21]
+tourism=wilderness_hut & shop=provisions [0x3903 resolution 20-10 continue]
+tourism=wilderness_hut & shop=provisions [0x2b04 resolution 21]
+tourism=cabin & service=self [0x3903 resolution 20-10 continue]
+tourism=cabin & service=self [0x2b04 resolution 21]
 # Ubetjent hytte
-tourism=wilderness_hut & shop!=* [0x2b12 resolution 20-10 continue]
-tourism=wilderness_hut & shop!=* [0x2b07 resolution 21]
-tourism=cabin & service=no [0x2b12 resolution 20-10 continue]
-tourism=cabin & service=no [0x2b07 resolution 21]
+tourism=wilderness_hut & shop!=* [0x3904 resolution 20-10 continue]
+tourism=wilderness_hut & shop!=* [0x2b05 resolution 21]
+tourism=cabin & service=no [0x3904 resolution 20-10 continue]
+tourism=cabin & service=no [0x2b05 resolution 21]
 # 0x2a - Restaurants / dining (serveringssteder, dagsturhytte)
-(amenity=cafe|amenity=restaurant) & tourism=* [0x2b13 resolution 20-10 continue]
+(amenity=cafe|amenity=restaurant) & tourism=* [0x3905 resolution 20-10 continue]
 amenity=cafe & tourism=* [0x2a0e resolution 23-21 continue]
 amenity=cafe [0x2a0e resolution 24]
 amenity=restaurant & tourism=* [0x2a00 resolution 23-21 continue]
 amenity=restaurant | amenity=fast_food [0x2a00 resolution 24]
 # Åpen koie/nødbu/rastebu
-tourism=basic_hut [0x2b12 resolution 20-10 continue]
-tourism=basic_hut [0x2b08 resolution 21]
-tourism=cabin & (access=public|emergency=yes) [0x2b12 resolution 20-10 continue]
-tourism=cabin & (access=public|emergency=yes) [0x2b08 resolution 21]
+tourism=basic_hut [0x3904 resolution 20-10 continue]
+tourism=basic_hut [0x2b06 resolution 21]
+tourism=cabin & (access=public|emergency=yes) [0x3904 resolution 20-10 continue]
+tourism=cabin & (access=public|emergency=yes) [0x2b06 resolution 21]
 # Gapahuk
-amenity=shelter | tourism=lean_to [0x2b09 resolution 21]
+amenity=shelter | tourism=lean_to [0x2b07 resolution 21]
 # Overnattingssteder
 tourism=hotel | tourism=motel [0x2b01 resolution 24]
-tourism=hostel [0x2b02 resolution 21]
+tourism=hostel [0x2b08 resolution 21]
+tourism=chalet [0x2b09 resolution 21]
 tourism=camp_site [0x2b03 resolution 21]
-tourism=chalet [0x2b04 resolution 21]
 
 # Private navngitte hytter, hustufter
 building=cabin & name=* [0x6402 resolution 23]
