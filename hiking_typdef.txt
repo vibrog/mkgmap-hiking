@@ -781,7 +781,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2b02
+Type=0x3906
 String1=0x04,Staffed mountain hut
 String2=0x0f,Betjent hytte
 Xpm="15 15 2 1"
@@ -805,7 +805,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2b04
+Type=0x3907
 String1=0x04,Provisioned hut
 String2=0x0f,Selvbetjent hytte
 Xpm="15 15 2 1"
@@ -829,7 +829,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2b05
+Type=0x3908
 String1=0x04,Unprovisioned hut
 String2=0x0f,Ubetjent hytte
 Xpm="15 15 2 1"
