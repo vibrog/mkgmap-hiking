@@ -80,6 +80,7 @@ waterway=waterfall | natural=waterfall [0x6508 resolution 24]
 # 0x66 - Geographical (land-based)
 natural=peak [0x6616 resolution 21]
 natural=cave_entrance [0x6608 resolution 24]
+natural=* & shelter=yes [0x6608 resolution 24]
 natural=stone & (name=* | website=*) [0x6614 resolution 22]
 natural=stone [0x6614 resolution 24]
 natural=tree & (name=* | website=*) [0x6618 resolution 22]
