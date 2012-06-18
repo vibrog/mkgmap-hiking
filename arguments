@@ -14,9 +14,9 @@ reduce-point-density = 4
 reduce-point-density-polygon = 5.6
 merge-lines
 remove-short-arcs
-ignore-osm-bounds
 generate-sea = extend-sea-sectors,floodblocker
-latin1
-lower-case
+
+#latin1
+#lower-case
+ignore-osm-bounds
 #route
-#draw-priority = 18
