@@ -1,1 +1,2 @@
 type=route & ( route=mtb | route=bicycle & network=mtb ) { apply { set route=mtb; }}
+type=route & ( route=hiking | route=foot ) { apply { set route=hiking; }}
