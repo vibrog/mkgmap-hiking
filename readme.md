@@ -20,7 +20,9 @@ Then build the map file using mkgmap:
 For large areas you'll need to use a splitter.
 
 An example map file covering [Oslomarka][8] is available at
-<http://www.vidargundersen.com/hikingmap.img>
+<http://www.vidargundersen.com/hikingtrails.img>
+To install, simply copy it to the `Garmin` folder on the GPS memory card.
+Rename to `gmapsupp.img` on 60CSx.
 
 Created by Vidar Bronken Gundersen.
 [CC BY][9]
