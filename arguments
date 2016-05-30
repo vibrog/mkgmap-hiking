@@ -16,6 +16,8 @@ merge-lines
 remove-short-arcs
 generate-sea = extend-sea-sectors,floodblocker
 
+name-tag-list = name:no, name, nat_name, short_name, alt_name, old_name, loc_name, reg_name, int_name, official_name, informal_name, mtb:name, piste:name, addr:housename
+
 #latin1
 #lower-case
 ignore-osm-bounds
