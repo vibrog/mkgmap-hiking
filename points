@@ -39,6 +39,8 @@ historic=ruins | building=collapsed [0x6419 resolution 24]
 # 0x4a - Picnic
 amenity=bbq & access=official [0x4a01 resolution 22]
 amenity=bbq [0x4a01 resolution 24]
+leisure=firepit & access=official [0x4a01 resolution 22]
+leisure=firepit [0x4a01 resolution 24]
 
 # 0x4c - Information
 tourism=information & information=map [0x4c01 resolution 24]
