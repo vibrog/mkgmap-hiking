@@ -6,13 +6,9 @@ tourism=alpine_hut | tourism=guest_house [0x3906 resolution 21]
 # Proviantert/selvbetjent hytte
 tourism=wilderness_hut & shop=provisions [0x3903 resolution 20-10 continue]
 tourism=wilderness_hut & shop=provisions [0x3907 resolution 21]
-tourism=cabin & service=self [0x3903 resolution 20-10 continue]
-tourism=cabin & service=self [0x3907 resolution 21]
 # Ubetjent hytte
 tourism=wilderness_hut & shop!=* [0x3904 resolution 20-10 continue]
 tourism=wilderness_hut & shop!=* [0x3908 resolution 21]
-tourism=cabin & service=no [0x3904 resolution 20-10 continue]
-tourism=cabin & service=no [0x3908 resolution 21]
 # 0x2a - Restaurants / dining (serveringssteder, dagsturhytte)
 (amenity=cafe|amenity=restaurant) & tourism=* [0x3905 resolution 20-10 continue]
 amenity=cafe & tourism=* [0x2a0e resolution 23-21 continue]
@@ -20,12 +16,14 @@ amenity=cafe [0x2a0e resolution 24]
 amenity=restaurant & tourism=* [0x2a00 resolution 23-21 continue]
 amenity=restaurant | amenity=fast_food [0x2a00 resolution 24]
 # Åpen koie/nødbu/rastebu
-tourism=basic_hut [0x3904 resolution 20-10 continue]
-tourism=basic_hut [0x2b06 resolution 21]
-tourism=cabin & (access=public|emergency=yes) [0x3904 resolution 20-10 continue]
-tourism=cabin & (access=public|emergency=yes) [0x2b06 resolution 21]
+amenity=shelter & shelter_type=basic_hut [0x3904 resolution 20-10 continue]
+amenity=shelter & shelter_type=basic_hut [0x2b06 resolution 21]
+amenity=shelter & shelter_type=weather_shelter [0x3904 resolution 20-10 continue]
+amenity=shelter & shelter_type=weather_shelter [0x2b06 resolution 21]
 # Gapahuk
-amenity=shelter | tourism=lean_to [0x2b07 resolution 21]
+amenity=shelter & shelter_type=lean_to [0x2b07 resolution 21]
+amenity=shelter & shelter_type=picnic_shelter [0x2b07 resolution 21]
+amenity=shelter [0x2b07 resolution 21]
 # Overnattingssteder
 tourism=hotel | tourism=motel [0x2b01 resolution 24]
 tourism=hostel [0x2b08 resolution 21]
