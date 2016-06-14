@@ -56,7 +56,7 @@ railway=station [0x2f18 resolution 21]
 railway=halt [0x2f18 resolution 22]
 # railway=tram_stop [0x2f19 resolution 24]
 man_made=raft [0x2f20 resolution 24]
-# highway=ford [0x2f21 resolution 24]
+# ford=yes [0x2f21 resolution 24]
 
 # 0x2c - Attractions / community
 amenity=place_of_worship & hiking=yes [0x2c0c resolution 21]
