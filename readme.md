@@ -7,7 +7,7 @@ for a [Garmin GPS][3] using [mkgmap][4].
 The cartography is adopted from hiking maps by
 [Asker Skiklubb](http://asker-skiklubb.no/)
 and a [symbol standard][5] from the
-[Norwegian Mapping Authority](http://www.statkart.no/).
+[Norwegian Mapping Authority](http://www.kartverket.no/).
 
 Build the TYP file from `hiking_typdef.txt` with [cGPSmapper][6].
 Then build the map file using mkgmap:
@@ -31,8 +31,8 @@ Created by Vidar Bronken Gundersen.
 [2]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
 [3]: http://www.garmin.com/us/products/onthetrail
 [4]: http://www.mkgmap.org.uk/
-[5]: http://www.statkart.no/filestore/Standardisering/docs/symbol.pdf
+[5]: http://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/symbol.pdf
   "Symbolfonter for friluftsliv og sport (1997). Statens kartverk Landkartdivisjonen, ISBN 82-90408-52-8"
 [6]: http://www.cgpsmapper.com/
 [8]: http://no.wikipedia.org/wiki/Marka_(Oslo)
-[9]: http://creativecommons.org/licenses/by/3.0/
+[9]: http://creativecommons.org/licenses/by/4.0/
