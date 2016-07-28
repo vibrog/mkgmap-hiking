@@ -985,11 +985,11 @@ String2=0x0f,Ruin/hustuft
 Xpm="5 5 2 1"
 "#   c #444444"
 "    c none"
-"#####"
+"## ##"
 "#   #"
+"     "
 "#   #"
-"#   #"
-"#####"
+"## ##"
 [end]
 
 [_point]
@@ -1113,6 +1113,54 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
+Type=0x4a00
+String1=0x04,Picnic site
+String2=0x0f,Rasteplass
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"               "
+"  ###########  "
+"  ###########  "
+"    ##   ##    "
+" ############# "
+" ############# "
+"   ##     ##   "
+"  ##       ##  "
+" ##         ## "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x5000
+String1=0x04,Drinking water
+String2=0x0f,Drikkevann
+Xpm="15 15 2 1"
+"    c #007db4"
+"#   c #ffffff"
+"               "
+"         ###   "
+"         ###   "
+"         ###   "
+"       ######  "
+"      #######  "
+"     ###       "
+"  ##  ## ##    "
+"  ##     ##    "
+"  ##     ##    "
+"   ##   ##     "
+"   ##   ##     "
+"   #######     "
+"   #######     "
+"               "
+[end]
+
+[_point]
 Type=0x2c0c
 String1=0x04,Sports chapel
 String2=0x0f,Sportskapell
@@ -1162,7 +1210,7 @@ Xpm="15 15 2 1"
 
 [_point]
 Type=0x4a01
-String1=0x04,Fireplace
+String1=0x04,Firepit
 String2=0x0f,Ildsted
 Xpm="15 15 2 1"
 "    c #d0006f"
@@ -1281,30 +1329,6 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2d14
-String1=0x04,Air sport
-String2=0x0f,Luftsport
-Xpm="15 15 2 1"
-"    c #d0006f"
-"#   c #ffffff"
-"               "
-"               "
-"    ###        "
-"    #######    "
-"    ########## "
-"  #########    "
-"   #####       "
-"  #### #       "
-" ##    # ##    "
-"     ######    "
-"   ######      "
-"    ##  ###    "
-"               "
-"               "
-"               "
-[end]
-
-[_point]
 Type=0x2c04
 String1=0x04,Attraction
 String2=0x0f,Severdighet
@@ -1324,6 +1348,31 @@ Xpm="15 15 2 1"
 " ##  ## ##  ## "
 " ##  ## ##  ## "
 "  ####   ####  "
+"   ##     ##   "
+"               "
+[end]
+
+[_point]
+Type=0x2c0d
+String1=0x04,Heritage
+String2=0x0f,Kulturminne
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"   ##     ##   "
+"   ##    ###   "
+"   ##   ###    "
+"   ##  ###     "
+"   ## ###      "
+"   #####       "
+"   ####        "
+"   ####        "
+"   #####       "
+"   ## ###      "
+"   ##  ###     "
+"   ##   ###    "
+"   ##    ###   "
 "   ##     ##   "
 "               "
 [end]
@@ -1349,6 +1398,78 @@ Xpm="15 15 2 1"
 "    ##  ###    "
 "    ##   ###   "
 "    ##    ##   "
+"               "
+[end]
+
+[_point]
+Type=0x2c11
+String1=0x04,Shieling
+String2=0x0f,Seter
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"      ###      "
+"    ##   ##    "
+"               "
+"  #         #  "
+"  #         #  "
+" # #  ###  # # "
+" #  #######  # "
+" #  #######  # "
+"  # ####### #  "
+"  #         #  "
+"               "
+"    ##   ##    "
+"      ###      "
+"               "
+[end]
+
+[_point]
+Type=0x2c12
+String1=0x04,Charcoal kiln
+String2=0x0f,Kullmile
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"               "
+"               "
+"        #      "
+"     #####     "
+"    ###  ##    "
+"   ##     ##   "
+"   ##  #  ##   "
+"  ##  ###  ##  "
+" ############# "
+" ############# "
+"               "
+"               "
+"               "
+"               "
+[end]
+
+[_point]
+Type=0x2c13
+String1=0x04,Sawmill/mill
+String2=0x0f,Sagbruk/mølle
+Xpm="15 15 2 1"
+"    c #b21416"
+"#   c #ffffff"
+"               "
+"               "
+"       #       "
+"  #   ###   #  "
+"   #########   "
+"    ##   ##    "
+"   ##     ##   "
+"  ###     ###  "
+"   ##     ##   "
+"    ##   ##    "
+"   #########   "
+"  #   ###   #  "
+"       #       "
+"               "
 "               "
 [end]
 
