@@ -62,8 +62,9 @@ railway=halt [0x2f18 resolution 22]
 amenity=place_of_worship & hiking=yes [0x2c0c resolution 21]
 amenity=place_of_worship [0x2c0b resolution 24]
 tourism=attraction [0x2c04 resolution 23]
-# Kulturminner: Gravrøys, bygdeborg, seter, kullmile, sagbruk, mølle
+# Fornminner: Gravrøys, bygdeborg
 historic=archaeological_site [0x2c0e resolution 24]
+# Tidligere næring i utmark: Seter, sagbruk, mølle, kullmile
 # historic=shieling [0x2c11 resolution 23]
 # historic=charcoal_kiln [0x2c12 resolution 23]
 # historic=sawmill | historic=mill [0x2c13 resolution 23]
