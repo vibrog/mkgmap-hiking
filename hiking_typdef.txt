@@ -354,6 +354,16 @@ Xpm="32 1 2 1"
 "   ####  ####      ####  ####   "
 [end]
 
+[_line]
+Type=0x18
+String1=0x04,Tow/cutline
+String2=0x0f,Slep/gate
+UseOrientation=N
+Xpm="32 1 2 1"
+"#   c #dd88dd"
+"    c none"
+"  ############    ############  "
+[end]
 
 [_line]
 Type=0x30
