@@ -1437,7 +1437,7 @@ Xpm="15 15 2 1"
 
 [_point]
 Type=0x2c14
-String1=0x04,Charcoal kiln
+String1=0x04,Charcoal pile
 String2=0x0f,Kullmile
 Xpm="10 10 3 1"
 "    c None"
