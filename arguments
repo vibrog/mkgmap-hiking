@@ -11,8 +11,7 @@ country-abbr = NOR
 copyright-message = OpenStreetMap-bidragsytere, Vidar Bronken Gundersen, CC BY-SA
 
 reduce-point-density = 4
-reduce-point-density-polygon = 5.6
-merge-lines
+reduce-point-density-polygon = 8
 remove-short-arcs
 generate-sea = extend-sea-sectors,floodblocker
 
