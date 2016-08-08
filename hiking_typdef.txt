@@ -1436,7 +1436,7 @@ Xpm="15 15 2 1"
 [end]
 
 [_point]
-Type=0x2c14
+Type=0x2c12
 String1=0x04,Charcoal pile
 String2=0x0f,Kullmile
 Xpm="10 10 3 1"
@@ -1456,7 +1456,7 @@ Xpm="10 10 3 1"
 [end]
 
 [_point]
-Type=0x2c12
+Type=0x2c13
 String1=0x04,Sawmill/mill
 String2=0x0f,Sagbruk/mølle
 Xpm="15 15 2 1"
