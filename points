@@ -67,7 +67,7 @@ historic=archaeological_site [0x2c0e resolution 24]
 # Tidligere næring i utmark: Seter, sagbruk, mølle, kullmile
 historic=shieling [0x2c11 resolution 23]
 historic=charcoal_pile [0x2c12 resolution 23]
-historic=sawmill | historic=mill [0x2c13 resolution 223]
+historic=sawmill | historic=mill [0x2c13 resolution 23]
 
 # 0x52 - Sights
 tourism=viewpoint & man_made=tower [0x5201 resolution 21]
