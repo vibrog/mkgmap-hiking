@@ -22,11 +22,11 @@ fixme=resurvey
 route=historic
  & highway!=*
  [0x17 resolution 23 continue]
-# man_made=cutline
-#  & highway!=*
-#  & power!=*
-#  & piste:type!=*
-#  [0x17 resolution 23 continue]
+man_made=cutline
+ & highway!=*
+ & power!=*
+ & piste:type!=*
+ [0x18 resolution 23 continue]
 
 piste:type=nordic
  & piste:grooming!=scooter
